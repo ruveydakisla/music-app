@@ -1,5 +1,5 @@
 import library from '@/assets/data/library.json'
-import TrackList from '@/components/TrackList'
+import {TrackList} from '@/components/TrackList'
 import { screenPadding } from '@/constants/tokens'
 import { trackTitleFilter } from '@/helpers/filter'
 import { useNavigationSearch } from '@/hooks/useNavigationSearch'

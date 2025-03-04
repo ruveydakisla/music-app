@@ -12,10 +12,10 @@ export type TrackListItemProps = {
 	onTrackSelect: (track: Track) => void
 }
 
-export default function TrackListItem({
+export  const TrackListItem=({
 	track,
 	onTrackSelect: handleTrackSelect,
-}: TrackListItemProps) {
+}: TrackListItemProps)=> {
 	const { playing } = useIsPlaying()
 	const isActiveTrack = useActiveTrack()?.url === track.url
 	return (

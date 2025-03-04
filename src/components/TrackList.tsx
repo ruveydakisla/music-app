@@ -1,4 +1,4 @@
-import TrackListItem from '@/components/TrackListItem'
+import {TrackListItem} from '@/components/TrackListItem'
 import { unknownTrackImageUri } from '@/constants/images'
 import { utilStyles } from '@/styles'
 import React from 'react'
@@ -11,7 +11,7 @@ const ItemDivider = () => {
 export type TracksListProps = Partial<FlatListProps<Track>> & {
 	tracks: Track[]
 }
-export default function TrackList({ tracks, ...flalistProps }: TracksListProps) {
+export const TrackList=({ tracks, ...flalistProps }: TracksListProps) =>{
 	const handleTrackSelect = async (track: Track) => {
 		await TrackPlayer.load(track)
 		await TrackPlayer.play()
