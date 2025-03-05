@@ -4,8 +4,8 @@ export const colors={
     text:"#fff",
     textMoted:"#9ca3af",
     icon:"#fff",
-    maximumTrackTintColor:"rgba(255,255,255,0,4)",
-    minimumTrackTintColor:"rgba(255,355,355,0,6)"
+    maximumTrackTintColor:"rgba(255,255,255,0.4)",
+    minimumTrackTintColor:"rgba(255,355,355,0.6)"
 }
 export const fontSize={
     xs:12,

@@ -31,8 +31,8 @@ export const PlayerProgressBar = ({ style }: ViewProps) => {
 				thumbWidth={0}
 				renderBubble={() => null}
 				theme={{
-					minimumTrackTintColor: colors.minimumTrackTintColor,
-					maximumTrackTintColor: colors.maximumTrackTintColor,
+					minimumTrackTintColor: "#A6AEBF",
+					maximumTrackTintColor: "rgba(255,355,355,0.6)"
 				}}
 				onSlidingStart={() => (isSliding.value = true)}
 				onValueChange={async (value) => {

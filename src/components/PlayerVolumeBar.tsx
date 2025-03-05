@@ -31,9 +31,8 @@ export const PlayerVolumeBar = ({ style }: ViewProps) => {
 						renderBubble={() => null}
         
 						theme={{
-							maximumTrackTintColor: colors.maximumTrackTintColor,
-							minimumTrackTintColor: colors.minimumTrackTintColor,
-						}}
+							maximumTrackTintColor: "#A6AEBF",
+							minimumTrackTintColor: "#A6AEBF",}}
 						thumbWidth={0}
 						maximumValue={max}
 					/>
