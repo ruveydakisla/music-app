@@ -7,15 +7,14 @@ import { StyleSheet, Text, TouchableHighlight, View } from 'react-native'
 import FastImage from 'react-native-fast-image'
 import LoaderKit from 'react-native-loader-kit'
 import { Track, useActiveTrack, useIsPlaying } from 'react-native-track-player'
+import { TrackShortcutsMenu } from './trackShortcutsMenu'
+import { StopPropagation } from '@/utils/StopPropagation'
 export type TrackListItemProps = {
 	track: Track
 	onTrackSelect: (track: Track) => void
 }
 
-export  const TrackListItem=({
-	track,
-	onTrackSelect: handleTrackSelect,
-}: TrackListItemProps)=> {
+export const TrackListItem = ({ track, onTrackSelect: handleTrackSelect }: TrackListItemProps) => {
 	const { playing } = useIsPlaying()
 	const isActiveTrack = useActiveTrack()?.url === track.url
 	return (
@@ -32,11 +31,21 @@ export  const TrackListItem=({
 							priority: FastImage.priority.normal,
 						}}
 					/>
-					{isActiveTrack && (playing ? (
-						<LoaderKit style={styles.trackPlayingIconIndicator} name="LineScaleParty" color={colors.icon} />
-					) : (
-						<Ionicons style={styles.trackPausedIndicator}  name="play" size={24} color={colors.icon} />
-					))}
+					{isActiveTrack &&
+						(playing ? (
+							<LoaderKit
+								style={styles.trackPlayingIconIndicator}
+								name="LineScaleParty"
+								color={colors.icon}
+							/>
+						) : (
+							<Ionicons
+								style={styles.trackPausedIndicator}
+								name="play"
+								size={24}
+								color={colors.icon}
+							/>
+						))}
 				</View>
 				{/*   Track title and artist  */}
 				<View
@@ -63,7 +72,11 @@ export  const TrackListItem=({
 							</Text>
 						)}
 					</View>
-					<Entypo name="dots-three-horizontal" size={18} color={colors.icon} />
+					<StopPropagation>
+						<TrackShortcutsMenu track={track}>
+							<Entypo name="dots-three-horizontal" size={18} color={colors.icon} />
+						</TrackShortcutsMenu>
+					</StopPropagation>
 				</View>
 			</View>
 		</TouchableHighlight>
@@ -93,17 +106,16 @@ const styles = StyleSheet.create({
 		fontSize: 14,
 		marginTop: 4,
 	},
-	trackPlayingIconIndicator:{
-		position:'absolute',
-		top:18,
-		left:16,
-		width:16,
-		height:16
+	trackPlayingIconIndicator: {
+		position: 'absolute',
+		top: 18,
+		left: 16,
+		width: 16,
+		height: 16,
 	},
-	trackPausedIndicator:{
-		position:'absolute',
-		top:14,
-		left:14,
-	
-	}
+	trackPausedIndicator: {
+		position: 'absolute',
+		top: 14,
+		left: 14,
+	},
 })

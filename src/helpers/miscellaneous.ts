@@ -5,3 +5,6 @@ export const formatSecondsToMinutes = (seconds: number) => {
 	const formattedSeconds = String(remainingSeconds).padStart(2, '0')
 	return `${formattedMinutes}:${formattedSeconds}`
 }
+export const generateTrackListId = (trackListName: string, search?: string) => {
+	return `${trackListName}${`-${search}` || ''}`
+}
