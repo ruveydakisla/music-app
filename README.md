@@ -41,6 +41,8 @@ Here are some screenshots from the app:
   <tr>
     <td><img src="assets/screenshots/player.png" width="300"></td>
     <td><img src="assets/screenshots/songs.png" width="300"></td>
+         <td><img src="assets/screenshots/playlists.png" width="300"></td>
+
   </tr>
 </table>
 ---
