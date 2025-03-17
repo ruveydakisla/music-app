@@ -33,5 +33,15 @@ This is a music application built with React Native and Expo, featuring smooth U
  - **Audio Player:** React Native Track Player
  - **UI Enhancements:** Reanimated, Gesture Handler, Linear Gradient
 
+## Screenshots
+
+Here are some screenshots from the app:
+
+<table>
+  <tr>
+    <td><img src="assets/screenshots/player.png" width="300"></td>
+    <td><img src="assets/screenshots/songs.png" width="300"></td>
+  </tr>
+</table>
 ---
 
