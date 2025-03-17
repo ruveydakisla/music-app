@@ -26,47 +26,12 @@ This is a music application built with React Native and Expo, featuring smooth U
    ```
 
 ## Technologies Used
- **React Native** (0.76.7)
- **Expo** (52.0.37)
- **State Management:** Zustand
- **Navigation:** React Navigation & Expo Router
- **Audio Player:** React Native Track Player
- **UI Enhancements:** Reanimated, Gesture Handler, Linear Gradient
+ - **React Native** (0.76.7)
+ - **Expo** (52.0.37)
+ - **State Management:** Zustand
+ - **Navigation:** React Navigation & Expo Router
+ - **Audio Player:** React Native Track Player
+ - **UI Enhancements:** Reanimated, Gesture Handler, Linear Gradient
 
 ---
-
-# Müzik Uygulaması
-
-## Açıklama
-Bu, React Native ve Expo ile geliştirilmiş, akıcı UI etkileşimleri, gelişmiş ses çalma ve çalma listesi yönetimi sunan bir müzik uygulamasıdır.
-
-## Özellikler
- **Ses Çalma:** `react-native-track-player` ile kesintisiz müzik akışı.
- **Navigasyon:** `@react-navigation/native-stack` ve `expo-router` kullanarak ekran geçişleri.
- **Özel UI Elemanları:** `react-native-reanimated`, `react-native-gesture-handler` ve `expo-linear-gradient` ile modern bir tasarım.
- **Görsel İşleme:** `react-native-fast-image` ve `react-native-image-colors` ile kapak görsellerinin daha hızlı yüklenmesi ve dinamik UI temaları.
- **Durum Yönetimi:** `zustand` ile hafif ve etkili global state yönetimi.
-
-## Kurulum
-1. Depoyu klonlayın:
-   ```sh
-   git clone https://github.com/kullaniciadi/muzik-uygulamasi.git
-   cd muzik-uygulamasi
-   ```
-2. Bağımlılıkları yükleyin:
-   ```sh
-   npm install
-   ```
-3. Geliştirme sunucusunu başlatın:
-   ```sh
-   expo start
-   ```
-
-## Kullanılan Teknolojiler
- **React Native** (0.76.7)
- **Expo** (52.0.37)
- **Durum Yönetimi:** Zustand
- **Navigasyon:** React Navigation & Expo Router
- **Ses Çalma:** React Native Track Player
- **UI Geliştirmeleri:** Reanimated, Gesture Handler, Linear Gradient
 
