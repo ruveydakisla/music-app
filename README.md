@@ -22,16 +22,16 @@ This is a music application built with React Native and Expo, featuring smooth U
    ```
 3. Start the development server:
    ```sh
-  npx expo run:ios
+   npx expo run:ios
    ```
 
 ## Technologies Used
-- **React Native** (0.76.7)
-- **Expo** (52.0.37)
-- **State Management:** Zustand
-- **Navigation:** React Navigation & Expo Router
-- **Audio Player:** React Native Track Player
-- **UI Enhancements:** Reanimated, Gesture Handler, Linear Gradient
+ **React Native** (0.76.7)
+ **Expo** (52.0.37)
+ **State Management:** Zustand
+ **Navigation:** React Navigation & Expo Router
+ **Audio Player:** React Native Track Player
+ **UI Enhancements:** Reanimated, Gesture Handler, Linear Gradient
 
 ---
 
@@ -41,11 +41,11 @@ This is a music application built with React Native and Expo, featuring smooth U
 Bu, React Native ve Expo ile geliştirilmiş, akıcı UI etkileşimleri, gelişmiş ses çalma ve çalma listesi yönetimi sunan bir müzik uygulamasıdır.
 
 ## Özellikler
-- **Ses Çalma:** `react-native-track-player` ile kesintisiz müzik akışı.
-- **Navigasyon:** `@react-navigation/native-stack` ve `expo-router` kullanarak ekran geçişleri.
-- **Özel UI Elemanları:** `react-native-reanimated`, `react-native-gesture-handler` ve `expo-linear-gradient` ile modern bir tasarım.
-- **Görsel İşleme:** `react-native-fast-image` ve `react-native-image-colors` ile kapak görsellerinin daha hızlı yüklenmesi ve dinamik UI temaları.
-- **Durum Yönetimi:** `zustand` ile hafif ve etkili global state yönetimi.
+ **Ses Çalma:** `react-native-track-player` ile kesintisiz müzik akışı.
+ **Navigasyon:** `@react-navigation/native-stack` ve `expo-router` kullanarak ekran geçişleri.
+ **Özel UI Elemanları:** `react-native-reanimated`, `react-native-gesture-handler` ve `expo-linear-gradient` ile modern bir tasarım.
+ **Görsel İşleme:** `react-native-fast-image` ve `react-native-image-colors` ile kapak görsellerinin daha hızlı yüklenmesi ve dinamik UI temaları.
+ **Durum Yönetimi:** `zustand` ile hafif ve etkili global state yönetimi.
 
 ## Kurulum
 1. Depoyu klonlayın:
@@ -63,10 +63,10 @@ Bu, React Native ve Expo ile geliştirilmiş, akıcı UI etkileşimleri, gelişm
    ```
 
 ## Kullanılan Teknolojiler
-- **React Native** (0.76.7)
-- **Expo** (52.0.37)
-- **Durum Yönetimi:** Zustand
-- **Navigasyon:** React Navigation & Expo Router
-- **Ses Çalma:** React Native Track Player
-- **UI Geliştirmeleri:** Reanimated, Gesture Handler, Linear Gradient
+ **React Native** (0.76.7)
+ **Expo** (52.0.37)
+ **Durum Yönetimi:** Zustand
+ **Navigasyon:** React Navigation & Expo Router
+ **Ses Çalma:** React Native Track Player
+ **UI Geliştirmeleri:** Reanimated, Gesture Handler, Linear Gradient
 
